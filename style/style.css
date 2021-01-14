@@ -21,11 +21,6 @@
   background-color: white;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
@@ -38,12 +33,12 @@
 }
 
 .title-header {
-  padding-left: 10px;
-  font-size: 34px;
+  margin: 30px;
+  font-size: 15px;
 }
 
 .margin-top {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .margin-left {
@@ -53,6 +48,9 @@
 .content-job-div {
   padding: 10px;
   font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #header-formation {
@@ -63,11 +61,20 @@
   margin-top: 30px;
 }
 
+#job {
+  margin-bottom: 50px;
+}
+
+#formation {
+  margin-bottom: 50px;
+}
+
 .header-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 17px;
 }
 
 .hr-style {
@@ -78,4 +85,28 @@
 
 body {
   font-family: "Optima", sans-serif;
+  background-color: #f7f4ea;
+  padding: 30px;
+}
+
+.coce {
+  max-width: 70%;
+  min-width: 70%;
+  font-size: 18px;
+}
+
+.date {
+  font-size: 10px;
+  font-style: italic;
+  color: grey;
+  max-width: 60px;
+  min-width: 60px;
+}
+
+.card-header-color {
+  background-color: #ded9e2;
+}
+
+i {
+  color: #80a1d4;
 }
