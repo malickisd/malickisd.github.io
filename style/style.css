@@ -1,0 +1,81 @@
+.title {
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.photo {
+  width: 200px;
+  clip-path: ellipse(50% 50%);
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.flexdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-header {
+  padding-left: 10px;
+  font-size: 34px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.content-job-div {
+  padding: 10px;
+  font-size: 15px;
+}
+
+#header-formation {
+  margin-top: 30px;
+}
+
+#header-job {
+  margin-top: 30px;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-style {
+  border: 2px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body {
+  font-family: "Optima", sans-serif;
+}
